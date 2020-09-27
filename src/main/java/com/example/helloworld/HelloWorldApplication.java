@@ -22,5 +22,10 @@ public class HelloWorldApplication {
                 return "Hello World";
             }
             
+            @GetMapping("/status")
+            public String showStatus() {
+                return "App funcionando";
+            }
+            
         }
 }
